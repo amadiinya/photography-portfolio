@@ -1,0 +1,165 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: 'Karla', sans-serif;
+  overflow-x: hidden;
+  background-color: #fff;
+  color: #000;
+}
+
+
+.nav-item-css {
+  margin-right: 1.5rem;
+  font-family: 'Karla' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+}
+
+
+.nav-link-css {
+  font-weight: 500;
+  color:  #121212 !important;
+  border-radius: 5px;
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+
+}
+
+
+.nav-link-css:hover {
+  color: red !important;
+}
+
+
+.portfolio{
+font-family: Karla;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 56px;
+letter-spacing: 0.04em;
+
+color: #121212;
+}
+.about-me-bg{
+  margin-top: 10rem;
+}
+.about-me-card{
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  position: absolute;
+  bottom: -170px;
+  right: 80px;
+  border: none;
+}
+
+.featured-in{
+  
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 56px;
+  letter-spacing: 0.04em;
+  color: #121212;
+}
+.featured{
+  margin-top: 11rem;
+}
+
+.featured-bg{
+  background-color: #EBEBEB;
+  height: 140px;
+  margin-bottom: 3rem;
+}
+
+.card-bg{
+  position: relative;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background-color: #fff;
+  border-radius: 100%;
+  height: 40px;
+  width: 50px;
+  padding: 5px;
+}
+
+.fa-arrow-right {
+  background-color: #e5e5e5;
+  width: 30px;
+  height: 20px;
+}
+
+.fa-arrow-up{
+  background-color: #e5e5e5;
+  width: 30px;
+  height: 25px;
+}
+
+.contact-us{
+  background-color: #EBEBEB;
+}
+
+.contact-btn{
+  background-color: black;
+  color: #fff;
+  border-radius: 0%;
+}
+
+textarea{
+  border-radius: 0%;
+  resize: none;
+}
+
+.form-control{
+  height: 46px;
+}
+
+footer{
+
+  background-color: #121212; 
+ 
+}
+
+.footer-text{
+  font-family: Rozha One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 170.7%;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1200px){
+
+}
+
+
+@media only screen and (max-width: 992px){
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
+@media only screen and (max-width: 576px){
+
+}
