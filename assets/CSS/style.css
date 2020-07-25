@@ -336,5 +336,8 @@ footer{
   footer{
     margin-top: 2rem;
   }
-
+.mb img{
+  width: 40px;
+  height: 200px;
+}
 }
