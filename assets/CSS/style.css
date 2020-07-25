@@ -1,4 +1,54 @@
 
+
+/*.testimonial_subtitle{
+  color: #0aaa7a;
+  font-size: 12px;
+}
+.testimonial_btn{
+  background-color: #373d4b !important;
+  color: #fff !important;
+}
+.seprator {
+  height: 2px;
+  width: 56px;
+  background-color: #0aaa7a;
+  margin: 7px 0 10px 0;
+}*/
+
+.carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.sr-only{
+  color: #000;
+}
+.carousel-control-next-icon{
+  background-color: rgba(0, 0, 0, 0.04) !important;
+  color: #000;
+}
+
+.carousel-control-prev-icon{
+  background-color: rgba(0, 0, 0, 0.04) !important;
+
+}
+/*
+.carousel-indicators{
+  background-color: red;
+}*/
+.slide{
+  padding: 3rem 5rem;
+}
+
+.creative-director-text{
+  font-size: 10px;
+}
+
+.carousel-indicators .active{
+  background-color: rgb(11, 206, 44);
+} 
+
 * {
   margin: 0;
   padding: 0;
@@ -145,6 +195,41 @@ footer{
   line-height: 170.7%;
   color: #fff;
 }
+
+.social-card{
+
+  border: 5px solid #121212;
+  width: 65%;
+}
+
+.social-card-text{
+  position: relative;
+  position: absolute;
+  bottom: 250px;
+  left: 130px;
+  background-color: #fff;
+  color: #121212;
+}
+
+.social-card-text-big{
+  font-family: 'Rozha One '!important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+
+  /* or 109px */
+  color: #121212;
+}
+.card-text-small{
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+
+  letter-spacing: 0.04em;
+  color: #121212;
+}
+
 
 @media only screen and (max-width: 1200px){
 
