@@ -274,7 +274,7 @@ footer{
   .social-card-text{
     position: relative;
     position: absolute;
-    bottom: 800px;
+    bottom: 550px;
     left: 5px;
     background-color: #fff;
     color: #121212;
@@ -332,6 +332,9 @@ footer{
 
   .slide{
     padding: 0.5rem;
+  }
+  footer{
+    margin-top: 2rem;
   }
 
 }
