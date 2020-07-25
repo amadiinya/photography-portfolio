@@ -21,8 +21,13 @@
   border-radius: 100%;
 }
 
-.sr-only{
+.fa-arrow-right{
   color: #000;
+}
+
+.fa-arrow-left{
+  color: #000;
+  background-color: #EBEBEB;
 }
 .carousel-control-next-icon{
   background-color: rgba(0, 0, 0, 0.04) !important;
