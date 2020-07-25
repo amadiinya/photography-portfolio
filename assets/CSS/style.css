@@ -261,6 +261,89 @@ footer{
 
 @media only screen and (max-width: 768px) {
 
+  .social-card{
+
+    border: 5px solid #121212;
+    width: 62%;
+  }
+
+  .social-card-text{
+    position: relative;
+    position: absolute;
+    bottom: 790px;
+    left: 50px;
+    background-color: #fff;
+    color: #121212;
+  }
+  
+  .social-card-text-big{
+    font-family: 'Rozha One '!important;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    color: #121212;
+  }
+  .card-text-small{
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    color: #121212;
+  }
+
+  .See-More-btn{
+    border: 1px solid black;
+    color: #000;
+    border-radius: 0%;
+    display: initial;
+  }
+
+  .img-destop-view-only{
+    display: none;
+  }
+
+  .about-me-card{
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    position: absolute;
+    bottom: -170px;
+    right: 80px;
+    border: none;
+    display: none;
+  }
+  
+  .about-me-bg{
+    margin-top: 2rem;
+  }
+
+  .about-mobile-view-only{
+    display: initial;
+  }
+
+  .mobile-img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .slide{
+    padding: 0.5rem;
+  }
+  footer{
+    margin-top: 2rem;
+  }
+.mb img{
+  width: 40px;
+  height: 200px;
+  margin-right: 0%;
+  padding: 0%;
+}
+
+.featured{
+  margin-top: 3rem;
+}
+
+
 }
 
 
@@ -318,7 +401,7 @@ footer{
   }
   
   .about-me-bg{
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 
   .about-mobile-view-only{
@@ -339,5 +422,12 @@ footer{
 .mb img{
   width: 40px;
   height: 200px;
+  margin-right: 0%;
+  padding: 0%;
 }
+
+.featured{
+  margin-top: 3rem;
+}
+
 }
