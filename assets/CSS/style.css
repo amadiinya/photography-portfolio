@@ -243,6 +243,12 @@ footer{
   color: #121212;
 }
 
+.about-mobile-view-only{
+  display: none;
+}
+
+
+
 
 @media only screen and (max-width: 1200px){
 
@@ -313,5 +319,14 @@ footer{
   
   .about-me-bg{
     margin-top: 5rem;
+  }
+
+  .about-mobile-view-only{
+    display: initial;
+  }
+
+  .mobile-img{
+    width: 100%;
+    height: 100%;
   }
 }
