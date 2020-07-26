@@ -246,7 +246,7 @@ footer{
 .social-card{
 
   border: 5px solid #121212;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 .social-car .cards{
@@ -297,6 +297,15 @@ footer{
 
 
 @media only screen and (max-width: 992px){
+  .about-me-card{
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    position: absolute;
+    bottom: -170px;
+    right: -10px;
+    border: none;
+  }
 
 }
 
@@ -305,7 +314,7 @@ footer{
   .social-card{
 
     border: 5px solid #121212;
-    width: 62%;
+    width: 100%;
   }
 
   .social-card-text{
