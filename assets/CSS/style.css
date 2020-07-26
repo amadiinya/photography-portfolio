@@ -1,4 +1,9 @@
-
+.card-b{
+  position: relative;
+  position: absolute;
+  left: 50px;
+  top: 250px;
+}
 
 /*.testimonial_subtitle{
   color: #0aaa7a;
@@ -124,6 +129,35 @@ color: #121212;
   border: none;
 }
 
+.about-mee-card{
+  color: #000;
+  background-color: #fff;
+  position: relative;
+  position: absolute;
+  bottom: 130px;
+  left: -110px;
+  border: none;
+}
+
+.bttt{
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  position: absolute;
+  bottom: 50px;
+  left: -50px;
+  border: none;
+}
+
+.about-m-card{
+  background-color: rgb(128, 27, 27);
+  position: relative;
+  position: absolute;
+  bottom: -270px;
+  left: -0px;
+  border: none;
+}
+
 .featured-in{
   
   font-family: Karla;
@@ -215,6 +249,10 @@ footer{
   width: 65%;
 }
 
+.social-car .cards{
+  border: 5px solid #121212;
+}
+
 .social-card-text{
   position: relative;
   position: absolute;
@@ -225,6 +263,7 @@ footer{
 }
 
 .social-card-text-big{
+  background-color: #fff;
   font-family: 'Rozha One '!important;
   font-style: normal;
   font-weight: bolder;
@@ -233,14 +272,13 @@ footer{
   /* or 109px */
   color: #121212;
 }
-.card-text-small{
+.social-card-text-small{
+  background-color: #fff;
+  color: #121212;
   font-family: Karla;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
-
-  letter-spacing: 0.04em;
-  color: #121212;
+  font-size: 16px;
 }
 
 .about-mobile-view-only{
