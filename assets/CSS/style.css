@@ -105,6 +105,9 @@ body {
   color: red !important;
 }
 
+.about-mee-card{
+  width: 400px !important;
+}
 
 .portfolio{
 font-family: Karla;
@@ -475,9 +478,6 @@ footer{
   margin-top: 3rem;
 }
 
-.about-mee-card{
-  width:
-}
 
 
 .social-card-text-big{
