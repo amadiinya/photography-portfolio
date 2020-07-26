@@ -149,14 +149,7 @@ color: #121212;
   border: none;
 }
 
-.about-m-card{
-  background-color: rgb(128, 27, 27);
-  position: relative;
-  position: absolute;
-  bottom: 60px;
-  left: -0px;
-  border: none;
-}
+
 
 .featured-in{
   
@@ -235,7 +228,7 @@ footer{
 }
 
 .footer-text{
-  font-family: Rozha One;
+  font-family: 'Rozha One' !important;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -267,7 +260,7 @@ footer{
 
 .social-card-text-big{
   background-color: #fff;
-  font-family: 'Rozha One '!important;
+  font-family: 'Rozha One'!important;
   font-style: normal;
   font-weight: bolder;
   font-size: 44px;
@@ -305,6 +298,10 @@ footer{
     bottom: -170px;
     right: -10px;
     border: none;
+  }
+
+  .about-mee-card{
+    width: 250px !important;
   }
 
 }
@@ -478,6 +475,30 @@ footer{
 
 .featured{
   margin-top: 3rem;
+}
+
+.about-mee-card{
+  width:
+}
+
+
+.social-card-text-big{
+  background-color: #fff;
+  font-family: 'Rozha One'!important;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 25px;
+
+  /* or 109px */
+  color: #121212;
+}
+.social-card-text-small{
+  background-color: #fff;
+  color: #121212;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 }
