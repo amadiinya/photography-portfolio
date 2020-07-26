@@ -300,9 +300,7 @@ footer{
     border: none;
   }
 
-  .about-mee-card{
-    width: 250px !important;
-  }
+ 
 
 }
 
@@ -510,6 +508,10 @@ footer{
   bottom: 40px;
   left: -90px;
   border: none;
+}
+
+.about-mee-card{
+  width: 220px !important;
 }
 
 }
